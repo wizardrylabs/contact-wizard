@@ -1,0 +1,40 @@
+.submit {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  a {
+    transition: all 300ms ease;
+    text-decoration: none;
+    color: #542d69;
+    border-bottom: 2px solid #542d69;
+  }
+
+  a:hover {
+    color: #68E0BB;
+    border-bottom: 2px solid #68E0BB;
+  }
+}
+
+.middle {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.highlight {
+  color: #542d69;
+  font-weight: bold;
+}

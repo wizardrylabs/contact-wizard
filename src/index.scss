@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'aileron';
+  src: url('/fonts/Aileron-Regular-webfont.eot');
+  src: url('/fonts/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Aileron-Regular-webfont.woff') format('woff'),
+  url('/fonts/Aileron-Regular-webfont.ttf') format('truetype'),
+  url('/fonts/Aileron-Regular-webfont.svg#aileronheavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileron';
+  src: url('/fonts/Aileron-Heavy-webfont.eot');
+  src: url('/fonts/Aileron-Heavy-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Aileron-Heavy-webfont.woff') format('woff'),
+  url('/fonts/Aileron-Heavy-webfont.ttf') format('truetype'),
+  url('/fonts/Aileron-Heavy-webfont.svg#aileronheavy') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'aileron', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #CCC;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #CCC;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #CCC;
+}

@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 5%;
+
+  p {
+    font-size: 11px;
+
+    svg {
+      margin-right: 5px;
+    }
+  }
+}
