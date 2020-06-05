@@ -1,3 +1,5 @@
+@import '../../mixins';
+
 .form {
   height: 100%;
   width: 100%;
@@ -5,6 +7,10 @@
 
   h2 {
     font-size: 3rem;
+
+    @include sm {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -22,6 +28,10 @@
   font-size: 1rem;
   text-align: right;
   color: #333333;
+
+  @include sm {
+    display: none;
+  }
 }
 
 .actions {

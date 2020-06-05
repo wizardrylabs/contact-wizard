@@ -1,3 +1,5 @@
+@import '../../mixins';
+
 .button {
   margin: 20px 0;
   background: #542d69;
@@ -8,6 +10,11 @@
   font-weight: bold;
   font-size: 1.5rem;
   text-transform: uppercase;
+
+  @include sm {
+    padding: 15px;
+    font-size: 1rem;
+  }
 }
 
 .button:hover {

@@ -1,3 +1,5 @@
+@import '../../mixins';
+
 .submit {
   height: 100%;
   width: 100%;
@@ -6,10 +8,18 @@
 
   h2 {
     font-size: 3rem;
+
+    @include sm {
+      font-size: 1.5rem;
+    }
   }
 
   p {
     font-size: 1.5rem;
+
+    @include sm {
+      font-size: 1rem;
+    }
   }
 
   a {

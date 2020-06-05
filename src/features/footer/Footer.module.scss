@@ -1,8 +1,14 @@
+@import '../../mixins';
+
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   margin: 0 5%;
+
+  @include sm {
+    display: none;
+  }
 
   p {
     font-size: 11px;

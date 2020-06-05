@@ -1,3 +1,5 @@
+@import '../../mixins';
+
 .header {
   display: block;
   position: fixed;
@@ -6,6 +8,10 @@
   width: 100%;
   background: #FFF;
   margin: 0 5%;
+
+  @include sm {
+    height: 70px;
+  }
 
   a {
     color: #542d69;
@@ -16,6 +22,11 @@
       width: 50px;
       padding: 22.5px 0;
       float: left;
+
+      @include sm {
+        width: 25px;
+        height: 25px;
+      }
     }
 
     h1 {
@@ -23,6 +34,11 @@
       font-size: 24px;
       line-height: 95px;
       margin: 0;
+
+      @include sm {
+        font-size: 12px;
+        line-height: 70px;
+      }
     }
   }
 }
