@@ -65,7 +65,7 @@ const Submit = () => {
             {didSend && (
               <Col>
                 <MdCheckmarkCircle fontSize="10rem" color="green" />
-                <h2>Congratulations!</h2>
+                <h2>Awesome!</h2>
                 <p>Your&apos;re one step closer to starting your project.</p>
                 <p>One of our representatives will reach out to you shortly.</p>
                 <p>
